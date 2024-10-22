@@ -1,0 +1,48 @@
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão de Link</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #5383ec; /* Cor alterada para #a4bbf3 */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 2px; /* Bordas arredondadas */
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            margin: 50px 0 15px 0; /* Margem acima e abaixo do botão */
+        }
+
+        .botao:hover {
+            background-color: #43598a; /* Cor mais escura ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+<div style="padding: 10px; width: 30rem; margin: 0 auto; font-family:  'Roboto', sans-serif; text-align: center; color: #181a21; font-size: 1rem;">
+<br />
+<img src="https://www.gstatic.com/gumdrop/files/gmb-migration-transparent-w726-h298-2x.png" style="align: center; display: block; margin: 5px auto; max-width: 30rem; max-height: 20rem; width: auto; height: auto;"><br />
+<h1>Você Tem Uma Nova Avaliação <br />de  {{252703392__numberRating}} Estrelas</h1>
+ 
+<img src="{{252703392__reviewer__profilePhotoUrl}}" alt="{{252703392__reviewer__displayName}}" style="display: block; margin: 20px auto; max-width: 4rem; max-height: 4rem; width: auto; height: auto;">
+<h3>Nome Cliente: {{252703392__reviewer__displayName}} <br />
+Nota: {{252703392__numberRating}} Estrelas</h3>
+<strong>Comentário:</strong> {{252703392__comment}}
+ <a href="https://www.google.com/search?q=use+motos&oq=use+motos+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRhB0gEIMTc2NWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x94a445befc3bf815:0xf6b23db33b6eb167,1,,,," class="botao">
+        Acesse Todas Avaliações
+    </a>
+<p style="color: #66676b; font-size: 0.7rem;">Ao responder às avaliações, você mostra aos clientes que <br />
+leva os feedbacks a sério e tem a oportunidade de interagir publicamente com os comentários.</p>
+</div>
+</body>
+</html>
